@@ -6,6 +6,7 @@ import MobileNavDropdown from './MobileNavDropdown'
 
 const Logo = ({ className }: { className?: string }) => {
   return (
+    // eslint-disable-next-line @next/next/no-img-element
     <img alt="Shadman Wadith" src="/logo.png" className={`w-40 ${className}`} />
   )
 }

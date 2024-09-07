@@ -281,18 +281,6 @@ const About = () => {
                </Link>
                . Also, I am in the final semester of my Master, which I am pursuing at the Department of CSE, University of Dhaka. I specialize in <b>Reinforcement Learning</b>, <b>Vision</b> and <b>Natural Language Processing</b>. Alongside my academic role, I am also a full-stack developer with expertise in FastAPI, NextJS, and NodeJS. I'm passionate about problem-solving, exploring new technologies, and gaming. A fast learner by nature, I thrive on continuously expanding my knowledge and taking on new challenges.
                </p>
-{/*             
-
-        <p className="text-lg mb-6">
-          You can check out my resume from{' '}
-          <Link
-            href="https://drive.google.com/file/d/15mZUP_pbwbQTUqUJFTqsy5aj9XCoLMQE/view?usp=sharing"
-            target="_blank"
-            className="text-purple-700 hover:text-purple-500 underline transition-all duration-200"
-          >
-            here
-          </Link>.
-        </p> */}
         </div>
       </div>
       </section>

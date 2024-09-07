@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaXTwitter, FaGoogleScholar } from "react-icons/fa6"
+import { FaFacebook, FaGithub, FaLinkedin, FaXTwitter, FaGoogleScholar } from "react-icons/fa6"
 
 const ProfilePicture = () => {
   return (
@@ -61,8 +61,8 @@ const socials = [
     href: "https://www.facebook.com/shadman.wadith/"
   },
   {
-    icon: <FaInstagram/>,
-    href: "https://www.instagram.com/shad.wadith/"
+    icon: <FaXTwitter/>,
+    href: "https://x.com/wadith027"
   }
   
 
