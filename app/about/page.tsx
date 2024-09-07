@@ -1,14 +1,15 @@
 
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMicrochip, faBook, faChess, faPlane, faCamera, faDumbbell, faRunning, faGamepad, faFilm, faGuitar, IconDefinition } from '@fortawesome/free-solid-svg-icons'
+import { faMicrochip,  faBook, faChess, faPlane, faCamera, faDumbbell, faRunning, faGamepad, faFilm, faGuitar, IconDefinition } from '@fortawesome/free-solid-svg-icons'
 import {
   faCode,               // General programming
   faDatabase,           // Database
   faCog,                // Tools and frameworks
   faBrain,              // AI/ML
   faCloud,              // Cloud services
-  faChartLine,          // Analytics tools
+  faChartLine,          // Analytics tools'
+  
 } from '@fortawesome/free-solid-svg-icons';
 
 import {
@@ -18,12 +19,9 @@ import {
   faReact,              // ReactJS
   faPython,             // Python
   faJava,               // Java
-  faJsSquare,           // JavaScript
-  faFlutter,            // Flutter
-  faAws,                // AWS
+  faJsSquare,
   faGithub
 } from '@fortawesome/free-brands-svg-icons';
-import { FaBriefcase } from "react-icons/fa6"
 // Define the type for icons
 type SkillIconKeys =
   | 'faCode'
@@ -64,9 +62,9 @@ type SkillIconKeys =
     {
       category: 'Programming Languages',
       skills: [
-        { name: 'C/C++', icon: 'faCode' },
-        { name: 'Java', icon: 'faJava' },
         { name: 'Python', icon: 'faPython' },
+        { name: 'C/C++', icon: 'faCode' },
+        { name: 'Java', icon: 'faJava' },        
         { name: 'JavaScript', icon: 'faJsSquare' }
       ]
     },
@@ -76,18 +74,12 @@ type SkillIconKeys =
         { name: 'FastAPI', icon: 'faPython' },
         { name: 'NodeJS', icon: 'faNodeJs' },
         { name: 'NextJS', icon: 'faReact' },
-        { name: 'ReactJS', icon: 'faReact' },
         { name: 'Django', icon: 'faCog' },
         { name: 'Flask', icon: 'faCog' },
-        { name: 'Bootstrap', icon: 'faCss3Alt' },
         { name: 'TailwindCSS', icon: 'faCss3Alt' },
         { name: 'Git', icon: 'faGithub' },
-        { name: 'Deployment', icon: 'faCloud' },
         { name: 'Jupyter Notebook', icon: 'faBook' },
-        { name: 'HTML', icon: 'faHtml5' },
-        { name: 'CSS', icon: 'faCss3Alt' },
         { name: 'Flutter', icon: 'faCode' },
-        { name: 'Material-UI', icon: 'faCog' },
         { name: 'AWS', icon: 'faCloud' }
       ]
     },
@@ -97,7 +89,8 @@ type SkillIconKeys =
         { name: 'MongoDB', icon: 'faDatabase' },
         { name: 'PostgreSQL', icon: 'faDatabase' },
         { name: 'MySQL', icon: 'faDatabase' },
-        { name: 'SQLite', icon: 'faDatabase' }
+        { name: 'SQLite', icon: 'faDatabase' },
+        { name: 'Redis', icon: 'faDatabase' }
       ]
     },
     {
