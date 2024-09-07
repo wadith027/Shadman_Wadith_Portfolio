@@ -214,7 +214,7 @@ const workExperiences = [
   ];
   // achievementsData.js
 
-export const achievements = [
+const achievements = [
   {
     title: "Best Thesis Award",
     description: "Undergraduate Thesis/Project Final Presentation, University of Dhaka",
