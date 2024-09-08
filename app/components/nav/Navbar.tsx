@@ -30,15 +30,16 @@ export const navLinks = [
     mobile: true
   },
   {
+    label: 'Publications',
+    href: '/publications',
+    mobile: true
+  },
+  {
     label: 'Projects',
     href: '/portfolio',
     mobile: true
   },
-  {
-    label: 'Publications',
-    href: '/publications',
-    mobile: true
-  }
+  
 ]
 
 const Navbar = () => {
