@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     'google-site-verification': 'BGZyOrC4tA14fBuM4GyzcLwjBcazKpFqzDo4571pcCs',
   },
   alternates: {
-    canonical: 'https://shadmanwadith.xyz', // Canonical URL
+    canonical: 'https://www.shadmanwadith.xyz/', // Canonical URL
   },
 };
 const ProfilePicture = () => {
