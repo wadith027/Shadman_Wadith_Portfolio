@@ -103,7 +103,7 @@ const socials = [
   },
   {
     icon: <FaLinkedin />,
-    href: "https://www.linkedin.com/in/shadman-wadith-4a6376149/"
+    href: "https://www.linkedin.com/in/shadmanwadith/"
   },
   {
     icon: <FaGoogleScholar/>,

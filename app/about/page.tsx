@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     description: 'Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js, and AI research.',
     url: 'https://shadmanwadith.xyz/about',
   },
+  alternates: {
+    canonical: 'https://shadmanwadith.xyz/about', 
+  },
 };
 
 // Define the type for icons
@@ -196,17 +199,6 @@ const workExperiences = [
       description: "GPA: 5.00/5.00"
     }
   ];
-  // const technicalSkills = [
-  //   "Python",
-  //   "JavaScript (Next.js, React)",
-  //   "SQL",
-  //   "FastAPI",
-  //   "Tailwind CSS",
-  //   "Stripe API",
-  //   "Playwright",
-  //   "Multi-Agent Reinforcement Learning"
-  // ];
-  // Define a type for the known keys
   type HobbyIconKeys = 'faMicrochip' | 'faBook' | 'faChess' | 'faPlane' | 'faGamepad' | 'faCamera' | 'faRunning' | 'faFilm' | 'faGuitar' | 'faDumbbell';
 
   // Define a mapping of icons
