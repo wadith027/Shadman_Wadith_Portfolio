@@ -3,11 +3,18 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import MobileNavDropdown from './MobileNavDropdown'
+import Image from "next/image"
 
 const Logo = ({ className }: { className?: string }) => {
   return (
     // eslint-disable-next-line @next/next/no-img-element
-    <img alt="Shadman Wadith" src="/logo.png" className={`w-40 ${className}`} />
+    <Image 
+      alt="Shadman Wadith" 
+      src="/logo.png" 
+      className={`${className}`} 
+      height={500}
+      width={160}
+      />
   )
 }
 
@@ -35,7 +42,7 @@ export const navLinks = [
 ]
 
 const Navbar = () => {
-  const pathname = usePathname(); // Get the current path
+  const pathname = usePathname(); 
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-100 z-50 shadow-lg">

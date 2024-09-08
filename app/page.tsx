@@ -1,10 +1,15 @@
 import Link from "next/link"
+import Image from "next/image"
 import { FaFacebook, FaGithub, FaLinkedin, FaXTwitter, FaGoogleScholar } from "react-icons/fa6"
 
 const ProfilePicture = () => {
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img src="/selfAbout.jpg" alt="Profile picture of Shadman Wadith" className="h-80 w-80 bg-white-100 rounded-full p-3 shadow-lg" />
+    <Image 
+      src="/selfAbout.jpg" 
+      alt="Profile picture of Shadman Wadith" 
+      className="bg-white-100 rounded-full p-3 shadow-lg" 
+      width={320} 
+      height={320}/>
   )
 }
 const bioBullets = [

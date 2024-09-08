@@ -1,8 +1,8 @@
 {
-  "name": "paytonpierce.dev",
+  "name": "shadmanwadith",
   "version": "0.1.0",
   "private": true,
-  "homepage": "paytonpierce.dev",
+  "homepage": "shadmanwadith.xyz",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

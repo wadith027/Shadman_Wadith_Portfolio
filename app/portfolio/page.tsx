@@ -2,19 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { FaGithub } from 'react-icons/fa';
 import { FaGlobeAmericas } from "react-icons/fa";
-// import hotkey from "/img/hotkey_2.png";
-// import luftwaffe from "/img/Luftwaffe.png"
-// import virtualDrumkit from "/img/virtual_drumkit.png"
-// import dictionIO from "/img/dictionIO.png"
-// import simons from "/img/simon_2.png"
 import Image from 'next/image'
-// import PortfolioCard from "./PortfolioCard"
-  const projectButton = (text: string) => {
-    return (
-      // eslint-disable-next-line @next/next/no-img-element
-      <button type="button" className="flex justify-center gap-2 text-black w-auto bg-purple-700 hover:scale-110 hover:bg-purple-800 font-medium rounded-full text-base px-5 py-2.5 text-center mb-2 "><FaGithub className='w-5 h-5 '/>{text}</button>
-      )
-  }
 const projects = [
   {
       image: "/img/hotkey_2.png",

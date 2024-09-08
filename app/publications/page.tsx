@@ -8,7 +8,7 @@ const publications = {
       journal: 'Applied Intelligence',
       pages: 'pp. 6108–6124',
       year: 2024,
-      link: 'https://link.springer.com/article/10.1007/s10489-024-05433-x' // Replace with the actual link
+      link: 'https://link.springer.com/article/10.1007/s10489-024-05433-x' 
     }
   ],
   conferenceProceedings: [
@@ -17,21 +17,21 @@ const publications = {
       authors: 'Shamim Ahmed, Sadikur Rahman, Saiful Azad, K.M. Shadman Wadith',
       conference: '2024 6th International Conference on Electrical Engineering and Information Communication Technology (ICEEICT)',
       year: 2024,
-      link: 'https://ieeexplore.ieee.org/abstract/document/10534403/' // Replace with the actual link
+      link: 'https://ieeexplore.ieee.org/abstract/document/10534403/' 
     },
     {
       title: 'Energy Consumption Aware Delay Minimization for UAV Enabled Internet of Vehicle',
       authors: 'Shariar Hossain Emon, MD Lotifur Rahman, Sumiya Siddika Omi, Palash Roy, Md. Abdur Razzaque, K. M. Shadman Wadith, Jargis Ahmed',
       conference: '2023 5th International Conference on Sustainable Technologies for Industry 5.0 (STI)',
       year: 2023,
-      link: 'https://ieeexplore.ieee.org/abstract/document/10464440/' // Replace with the actual link
+      link: 'https://ieeexplore.ieee.org/abstract/document/10464440/' 
     },
     {
       title: 'EHHGSO: Enhancing Hybrid Hugo Gas Solubility Optimization Algorithm Using Backtracking Technique',
       authors: 'Ajoy Mahanta, Md. Oshama Bin Nur, Rakibul Islam, Saiful Azad, Shadman Wadith, Mufti Mahmud, M. Shamim Kaiser',
       conference: '2023 5th International Conference on Sustainable Technologies for Industry 5.0 (STI)',
       year: 2023,
-      link: 'https://ieeexplore.ieee.org/abstract/document/10464490/' // Replace with the actual link
+      link: 'https://ieeexplore.ieee.org/abstract/document/10464490/'
     }
   ]
 };

@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from 'next/image'
 import { faMicrochip,  faBook, faChess, faPlane, faCamera, faDumbbell, faRunning, faGamepad, faFilm, faGuitar, IconDefinition } from '@fortawesome/free-solid-svg-icons'
 import {
   faCode,               // General programming
@@ -109,8 +110,12 @@ type SkillIconKeys =
 
 const ProfilePicture = () => {
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img src="/selfAbout.jpg" alt="Profile picture of Shadman Wadith" className="bg-white-100 W-80 h-80 rounded-full p-3 shadow-lg" />
+    <Image 
+      src="/selfAbout.jpg" 
+      alt="Profile picture of Shadman Wadith" 
+      className="bg-white-100 rounded-full p-3 shadow-lg" 
+      width={320} 
+      height={320}/>
   )
 }
 const workExperiences = [
@@ -221,6 +226,11 @@ const achievements = [
     year: "2021"
   },
   {
+    title: "ICT Fellowship Research Grant",
+    description: "Funded by ICT Division, Govt. of Bangladesht",
+    year: "2024"
+  },
+  {
     title: "4th Position",
     description: "Code Samurai Hackathon",
     year: "2022"
@@ -272,7 +282,7 @@ const About = () => {
               >
                 Brac University
                </Link>
-               . Also, I am in the final semester of my Master, which I am pursuing at the Department of CSE, University of Dhaka. I specialize in <b>Reinforcement Learning</b>, <b>Vision</b> and <b>Natural Language Processing</b>. Alongside my academic role, I am also a full-stack developer with expertise in FastAPI, NextJS, and NodeJS. I'm passionate about problem-solving, exploring new technologies, and gaming. A fast learner by nature, I thrive on continuously expanding my knowledge and taking on new challenges.
+               . Also, I am in the final semester of my Master, which I am pursuing at the Department of CSE, University of Dhaka. I specialize in <b>Reinforcement Learning</b>, <b>Computer Vision</b> and <b>Natural Language Processing</b>. Alongside my academic role, I am also a full-stack developer with expertise in FastAPI, NextJS, and NodeJS. I'm passionate about problem-solving, exploring new technologies, and gaming. A fast learner by nature, I thrive on continuously expanding my knowledge and taking on new challenges.
                </p>
         </div>
       </div>
