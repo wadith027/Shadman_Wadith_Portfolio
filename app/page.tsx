@@ -6,14 +6,14 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.shadmanwadith.xyz/"),
   keywords: [
-    "Shadman Wadith",
-    "Best RL researcher",
-    "Best Reinforcement Learning researcher",
-    "Best ML researcher",
-    "Top 10 teacher in BD",
-    "Best teacher in BD",
-    "Best developer in Bangladesh",
-    "Best developer in BD"
+    "Shadman",
+    "Wadith",
+    "Lecturer",
+    "Researcher",
+    "Developer",
+    "Brac University",
+    "Green University of Bangladesh",
+    "University of Dhaka",
   ],
   title: "Shadman Wadith",
   description:
