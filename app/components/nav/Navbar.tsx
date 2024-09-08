@@ -12,7 +12,7 @@ const Logo = ({ className }: { className?: string }) => {
       alt="Shadman Wadith" 
       src="/logo.png" 
       className={`${className}`} 
-      height={500}
+      height={50}
       width={160}
       />
   )
