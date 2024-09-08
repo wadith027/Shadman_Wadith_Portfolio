@@ -26,15 +26,15 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 export const metadata: Metadata = {
-  title: 'About | Shadman Wadith',
-  description: 'Learn more about Wadith, Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js, and AI research.',
+  title: 'Shadman Wadith | About',
+  description: 'Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js and FastAPI. He is a lecturer of Department of CSE, Brac University',
   openGraph: {
-    title: 'About | Shadman Wadith',
-    description: 'Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js, and AI research.',
-    url: 'https://shadmanwadith.xyz/about',
+    title: 'Shadman Wadith | About',
+    description: 'Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js and FastAPI. He is a lecturer of Department of CSE, Brac University',
+    url: 'https://www.shadmanwadith.xyz/about',
   },
   alternates: {
-    canonical: 'https://shadmanwadith.xyz/about', 
+    canonical: 'https://www.shadmanwadith.xyz/about', 
   },
 };
 

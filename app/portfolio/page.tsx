@@ -5,16 +5,16 @@ import { FaGlobeAmericas } from 'react-icons/fa';
 import { Metadata } from 'next';
 import Image from 'next/image';
 export const metadata: Metadata = {
-  title: 'Portfolio | Shadman Wadith',
+  title: 'Shadman Wadith | Portfolio',
   description: 'Explore the projects and work of Shadman Wadith, a full-stack developer specializing in React, Next.js, and FastAPI.',
   keywords: ['Portfolio', 'Shadman Wadith', 'Full-Stack Developer', 'React', 'Next.js', 'FastAPI', 'Projects', 'Web Developer'],
   openGraph: {
-    title: 'Wadith - Full-Stack Developer',
-    description: 'Explore the projects and work of Shadman Wadith, showcasing expertise in web development and AI research.',
-    url: 'https://shadmanwadith.xyz/portfolio',
+    title: 'Shadman Wadith | Portfolio',
+    description: 'Explore the projects and work of Shadman Wadith, a full-stack developer specializing in React, Next.js, and FastAPI.',
+    url: 'https://www.shadmanwadith.xyz/portfolio',
     images: [
       {
-        url: 'https://shadmanwadith.xyz/images/hotkey_2.png', // replace with your actual image URL
+        url: 'https://shadmanwadith.xyz/selfAbout.jpg', // replace with your actual image URL
         width: 1200,
         height: 630,
         alt: 'Portfolio of Shadman Wadith',
@@ -25,7 +25,12 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Portfolio | Shadman Wadith - Full-Stack Developer',
     description: 'Discover the innovative projects by Shadman Wadith, specializing in React, Next.js, and AI.',
-    images: ['https://shadmanwadith.xyz/images/hotkey_2.png'], // replace with your actual image URL
+    images: [{
+      url: "/selfAbout.jpg",
+      width: 1200, //1200
+      height: 630, //630
+      alt: "Shadman Wadith Photo",
+    },], // replace with your actual image URL
   },
   robots: {
     index: true,

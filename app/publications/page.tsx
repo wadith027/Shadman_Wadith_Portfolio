@@ -2,13 +2,13 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Publications | Shadman Wadith',
+  title: 'Shadman Wadith | Publications',
   description: 'Explore the journal articles and conference proceedings published by Shadman Wadith, covering topics like multi-agent reinforcement learning, image classification, and sustainable technologies.',
   keywords: ['Shadman Wadith', 'Publications', 'Research', 'Journal Articles', 'Conference Proceedings', 'Reinforcement Learning', 'Image Classification', 'Sustainable Technologies'],
   openGraph: {
-    title: 'Wadith - Researcher & Developer',
-    description: 'Read the latest research and conference papers by Shadman Wadith, including publications on decentralized reinforcement learning and energy-efficient UAVs.',
-    url: 'https://shadmanwadith.xyz/publications',
+    title: 'Shadman Wadith | Publications',
+    description: 'Explore the journal articles and conference proceedings published by Shadman Wadith, covering topics like multi-agent reinforcement learning, image classification, and sustainable technologies.',
+    url: 'https://www.shadmanwadith.xyz/publications',
   },
   robots: {
     index: true,

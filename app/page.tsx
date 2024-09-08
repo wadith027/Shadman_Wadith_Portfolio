@@ -15,21 +15,21 @@ export const metadata: Metadata = {
     "Best developer in Bangladesh",
     "Best developer in BD"
   ],
-  title: "Shadman Wadith Personal Website",
+  title: "Shadman Wadith",
   description:
-    "Shadman Wadith. A researcher and lecturer specializing in Reinforcement Learning, Vision, NLP, and a full-stack developer",
+    "Hello I am K.M. Shadman Wadith. I'm a lecturer and a researcher specializing in Reinforcement Learning, Vision, NLP. Also, I love to play with new techstack",
   openGraph: {
-    title: "Shadman Wadith Personal Website",
+    title: "Shadman Wadith",
     description:
-      "Shadman Wadith. A researcher and lecturer specializing in Reinforcement Learning, Vision, NLP, and a full-stack developer",
-    url: "https://www.shadmanwadith.xyz/",
-    siteName: "Shadman Wadith Personal Website",
+      "Hello I am K.M. Shadman Wadith. I'm a lecturer and a researcher specializing in Reinforcement Learning, Vision, NLP. Also I love to play with new techstack",
+    url: "https://www.shadmanwadith.xyz",
+    siteName: "Shadman Wadith",
     images: [
       {
         url: "/selfAbout.jpg",
         width: 1200, //1200
         height: 630, //630
-        alt: "Shadman Wadith Personal Website Image",
+        alt: "Shadman Wadith Photo",
       },
     ],
     type: "website",
