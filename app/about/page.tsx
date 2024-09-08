@@ -1,5 +1,6 @@
 
 import Link from 'next/link';
+import { Metadata } from 'next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import { faMicrochip,  faBook, faChess, faPlane, faCamera, faDumbbell, faRunning, faGamepad, faFilm, faGuitar, IconDefinition } from '@fortawesome/free-solid-svg-icons'
@@ -23,6 +24,17 @@ import {
   faJsSquare,
   faGithub
 } from '@fortawesome/free-brands-svg-icons';
+
+export const metadata: Metadata = {
+  title: 'About | Shadman Wadith',
+  description: 'Learn more about Wadith, Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js, and AI research.',
+  openGraph: {
+    title: 'About | Shadman Wadith',
+    description: 'Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js, and AI research.',
+    url: 'https://shadmanwadith.xyz/about',
+  },
+};
+
 // Define the type for icons
 type SkillIconKeys =
   | 'faCode'
@@ -258,6 +270,8 @@ const About = () => {
     <div className="container mx-auto md:px-0 lg:px-10 xl:px-72  py-8">
       {/* Introduction Section */}
       <section>
+        
+        <h1 className='hidden'>About Shadman Wadith</h1>
         <div className="flex flex-col lg:flex-row justify-center items-center gap-10 md:gap-20 text-justify">
           {/* picture of me */}
             <ProfilePicture />

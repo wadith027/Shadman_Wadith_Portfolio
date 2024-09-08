@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     template: "%s | Shadman Wadith",
   },
   description:
-    "Hello, I am Shadman Wadith. I graduated from the Department of CSE, University of Dhaka. Currently, I am working as a lecturer at the Department of Computer Science and Engineering, Brac University. I specialize in Reinforcement Learning, Vision, and NLP, and I'm a full-stack developer with expertise in FastAPI, NextJS, and NodeJS.",
+    "Hello, I am Shadman Wadith. I am a Lecturer, ML Enthusiast, Researcher, Developer",
   openGraph: {
     title: "Shadman Wadith Personal Website",
     description:
-      "Hello, I am Shadman Wadith. A researcher and lecturer specializing in Reinforcement Learning, Vision, NLP, and a full-stack developer with expertise in FastAPI, NextJS, and NodeJS.",
+      "Hello, I am Shadman Wadith. I am a Lecturer, ML Enthusiast, Researcher, Developer",
     url: "https://www.shadmanwadith.xyz/",
     siteName: "Shadman Wadith Personal Website",
     images: [
