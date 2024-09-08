@@ -2,11 +2,11 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Publications | Shadman Wadith - Researcher & Developer',
+  title: 'Publications | Shadman Wadith',
   description: 'Explore the journal articles and conference proceedings published by Shadman Wadith, covering topics like multi-agent reinforcement learning, image classification, and sustainable technologies.',
   keywords: ['Shadman Wadith', 'Publications', 'Research', 'Journal Articles', 'Conference Proceedings', 'Reinforcement Learning', 'Image Classification', 'Sustainable Technologies'],
   openGraph: {
-    title: 'Publications | Shadman Wadith - Researcher & Developer',
+    title: 'Wadith - Researcher & Developer',
     description: 'Read the latest research and conference papers by Shadman Wadith, including publications on decentralized reinforcement learning and energy-efficient UAVs.',
     url: 'https://shadmanwadith.xyz/publications',
   },
@@ -58,7 +58,7 @@ const PublicationsPage = () => {
       <div className="max-w-4xl mx-auto px-5 md:px-24">
         
         <div className="mb-12">
-          <h1 className='hidden'> Shadman Wadith Publication</h1>
+          <h1 className='hidden'> Shadman Wadith Publications</h1>
           <h2 className="text-3xl font-semibold mb-4">Journal Articles</h2>
           {publications.journalArticles.map((paper, index) => (
             <div key={index} className="bg-gray-50 shadow-md rounded-lg p-6 mb-6">

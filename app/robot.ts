@@ -4,7 +4,7 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
-      allow: ['/','/publications','/about'],
+      allow: ['/','/publications','/about', '/portfolio'],
       disallow: '/private/',
     },
     sitemap: 'https://shadmanwadith.xyz/sitemap.xml',

@@ -1,7 +1,55 @@
 import Link from "next/link"
 import Image from "next/image"
 import { FaFacebook, FaGithub, FaLinkedin, FaXTwitter, FaGoogleScholar } from "react-icons/fa6"
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.shadmanwadith.xyz/"),
+  keywords: [
+    "Shadman Wadith",
+    "Best RL researcher",
+    "Best Reinforcement Learning researcher",
+    "Best ML researcher",
+    "Top 10 teacher in BD",
+    "Best teacher in BD",
+    "Best developer in Bangladesh",
+    "Best developer in BD"
+  ],
+  title: "Shadman Wadith Personal Website",
+  description:
+    "Shadman Wadith. A researcher and lecturer specializing in Reinforcement Learning, Vision, NLP, and a full-stack developer",
+  openGraph: {
+    title: "Shadman Wadith Personal Website",
+    description:
+      "Shadman Wadith. A researcher and lecturer specializing in Reinforcement Learning, Vision, NLP, and a full-stack developer",
+    url: "https://www.shadmanwadith.xyz/",
+    siteName: "Shadman Wadith Personal Website",
+    images: [
+      {
+        url: "/selfAbout.jpg",
+        width: 1200, //1200
+        height: 630, //630
+        alt: "Shadman Wadith Personal Website Image",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@wadith027", // Replace with your Twitter handle
+    creator: "@wadith027",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  other: {
+    'google-site-verification': 'BGZyOrC4tA14fBuM4GyzcLwjBcazKpFqzDo4571pcCs',
+  },
+  alternates: {
+    canonical: 'https://shadmanwadith.xyz', // Canonical URL
+  },
+};
 const ProfilePicture = () => {
   return (
     <Image 

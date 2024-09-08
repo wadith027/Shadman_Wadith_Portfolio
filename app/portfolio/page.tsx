@@ -5,11 +5,11 @@ import { FaGlobeAmericas } from 'react-icons/fa';
 import { Metadata } from 'next';
 import Image from 'next/image';
 export const metadata: Metadata = {
-  title: 'Portfolio | Shadman Wadith - Full-Stack Developer',
+  title: 'Portfolio | Shadman Wadith',
   description: 'Explore the projects and work of Shadman Wadith, a full-stack developer specializing in React, Next.js, and FastAPI.',
   keywords: ['Portfolio', 'Shadman Wadith', 'Full-Stack Developer', 'React', 'Next.js', 'FastAPI', 'Projects', 'Web Developer'],
   openGraph: {
-    title: 'Portfolio | Shadman Wadith - Full-Stack Developer',
+    title: 'Wadith - Full-Stack Developer',
     description: 'Explore the projects and work of Shadman Wadith, showcasing expertise in web development and AI research.',
     url: 'https://shadmanwadith.xyz/portfolio',
     images: [

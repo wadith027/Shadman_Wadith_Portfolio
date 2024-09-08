@@ -271,7 +271,6 @@ const About = () => {
       {/* Introduction Section */}
       <section>
         
-        <h1 className='hidden'>About Shadman Wadith</h1>
         <div className="flex flex-col lg:flex-row justify-center items-center gap-10 md:gap-20 text-justify">
           {/* picture of me */}
             <ProfilePicture />

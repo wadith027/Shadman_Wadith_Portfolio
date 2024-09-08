@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-import Head from 'next/head'
 import { Nunito } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/nav/Navbar";
@@ -8,58 +6,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const nunito = Nunito({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  metadataBase: new URL("https://www.shadmanwadith.xyz/"),
-  keywords: [
-    "Shadman Wadith",
-    "Best RL researcher",
-    "Best Reinforcement Learning researcher",
-    "Best ML researcher",
-    "Top 10 teacher in BD",
-    "Best teacher in BD",
-    "Best developer in Bangladesh",
-    "Best developer in BD"
-  ],
-  title: {
-    default: "Shadman Wadith Personal Website",
-    template: "%s | Shadman Wadith",
-  },
-  description:
-    "Hello, I am Shadman Wadith. I am a Lecturer, ML Enthusiast, Researcher, Developer",
-  openGraph: {
-    title: "Shadman Wadith Personal Website",
-    description:
-      "Hello, I am Shadman Wadith. I am a Lecturer, ML Enthusiast, Researcher, Developer",
-    url: "https://www.shadmanwadith.xyz/",
-    siteName: "Shadman Wadith Personal Website",
-    images: [
-      {
-        url: "/selfAbout.jpg",
-        width: 1200, //1200
-        height: 630, //630
-        alt: "Shadman Wadith Personal Website Image",
-      },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@wadith027", // Replace with your Twitter handle
-    creator: "@wadith027",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-  other: {
-    'google-site-verification': 'BGZyOrC4tA14fBuM4GyzcLwjBcazKpFqzDo4571pcCs',
-  },
-};
-export const viewport = {
-  width: "device-width",
-  initialScale: 1,
-};
 export default function RootLayout({
   children,
 }: Readonly<{

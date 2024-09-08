@@ -7,7 +7,6 @@ import Image from "next/image"
 
 const Logo = ({ className }: { className?: string }) => {
   return (
-    // eslint-disable-next-line @next/next/no-img-element
     <Image 
       alt="Shadman Wadith" 
       src="/logo.png" 
