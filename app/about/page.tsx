@@ -22,7 +22,7 @@ import {
   faPython,             // Python
   faJava,               // Java
   faJsSquare,
-  faGithub
+  faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 
 export const metadata: Metadata = {
@@ -130,7 +130,9 @@ const ProfilePicture = () => {
       alt="Profile picture of Shadman Wadith" 
       className="bg-white-100 rounded-full p-3 shadow-lg" 
       width={320} 
-      height={320}/>
+      height={320}
+      // style={{ width: '70%', height:'70%'}}
+    />
   )
 }
 const workExperiences = [
@@ -259,7 +261,7 @@ const achievements = [
   
 const About = () => {
   return (
-    <div className="container mx-auto md:px-0 lg:px-10 py-8">
+    <div className="container mx-auto md:px-0 lg:px-20 xl:px-36 2xl:px-64 py-8">
       {/* Introduction Section */}
       <section>
         

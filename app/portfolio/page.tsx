@@ -21,17 +21,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Portfolio | Shadman Wadith - Full-Stack Developer',
-    description: 'Discover the innovative projects by Shadman Wadith, specializing in React, Next.js, and AI.',
-    images: [{
-      url: "/selfAbout.jpg",
-      width: 1200, //1200
-      height: 630, //630
-      alt: "Shadman Wadith Photo",
-    },], // replace with your actual image URL
-  },
   robots: {
     index: true,
     follow: true,
