@@ -27,10 +27,10 @@ import {
 
 export const metadata: Metadata = {
   title: 'Shadman Wadith | About',
-  description: 'Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js and FastAPI. He is a lecturer of Department of CSE, Brac University',
+  description: 'Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js and FastAPI. He is a lecturer of Department of CSE, BRAC University',
   openGraph: {
     title: 'Shadman Wadith | About',
-    description: 'Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js and FastAPI. He is a lecturer of Department of CSE, Brac University',
+    description: 'Learn more about Shadman Wadith, a full-stack developer specializing in React, Next.js and FastAPI. He is a lecturer of Department of CSE, BRAC University',
     url: 'https://www.shadmanwadith.xyz/about',
   },
   alternates: {
@@ -136,7 +136,7 @@ const ProfilePicture = () => {
 const workExperiences = [
     {
       position: "Lecturer",
-      company: "Brac University",
+      company: "BRAC University",
       years: "Sep, 2024 - Present",
     },
     {
@@ -281,11 +281,11 @@ const About = () => {
                {/* https://cse.sds.bracu.ac.bd/ */}
                Currently, I am working as a <b>lecturer</b> at the Department of Computer Science and Engineering, {' '}
                <Link
-                href="https://du.ac.bd/body/CSE"
+                href="https://cse.sds.bracu.ac.bd/"
                 target="_blank"
                 className="text-purple-600 hover:text-purple-500 transition-all duration-200"
               >
-                Brac University
+                BRAC University
                </Link>
                . Also, I am in the final semester of my Master, which I am pursuing at the Department of CSE, University of Dhaka. I specialize in <b>Reinforcement Learning</b>, <b>Computer Vision</b> and <b>Natural Language Processing</b>. Alongside my academic role, I am also a full-stack developer with expertise in FastAPI, NextJS, and NodeJS. I'm passionate about problem-solving, exploring new technologies, and gaming. A fast learner by nature, I thrive on continuously expanding my knowledge and taking on new challenges.
                </p>

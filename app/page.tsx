@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Lecturer",
     "Researcher",
     "Developer",
-    "Brac University",
+    "BRAC University",
     "Green University of Bangladesh",
     "University of Dhaka",
   ],
@@ -69,7 +69,7 @@ const bioBullets = [
   {
      link: 'https://cse.sds.bracu.ac.bd/',
      emoji: "💼",
-     text: "Lecturer at Brac University"
+     text: "Lecturer at BRAC University"
   },
   {
      link: "https://github.com/wadith027",
