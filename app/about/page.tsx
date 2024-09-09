@@ -259,7 +259,7 @@ const achievements = [
   
 const About = () => {
   return (
-    <div className="container mx-auto md:px-0 lg:px-10 xl:px-72  py-8">
+    <div className="container mx-auto md:px-0 lg:px-10 py-8">
       {/* Introduction Section */}
       <section>
         
