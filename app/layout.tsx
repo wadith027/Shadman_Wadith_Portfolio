@@ -4,6 +4,7 @@ import Navbar from "./components/nav/Navbar";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import GoogleAnalytics from '../GoogleAnalytics';
 
 const nunito = Nunito({ subsets: ["latin"] });
 export default function RootLayout({
@@ -13,6 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-gray-100">
+      <GoogleAnalytics />
       <body className={`${nunito.className} transition-colors duration-100`}>
           <Navbar />
           <div className="pt-20 md:pt-48">
