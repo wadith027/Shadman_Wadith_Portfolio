@@ -139,17 +139,26 @@ const workExperiences = [
     {
       position: "Lecturer",
       company: "BRAC University",
-      years: "Sep, 2024 - Present",
+      years: "Oct, 2024 - Present",
     },
     {
       position: "Lecturer",
       company: "Green University of Bangladesh",
-      years: "Feb, 2023 - Sep, 2024",
+      years: "Feb, 2023 - Oct, 2024",
       responsibilities: [
         "Core Committee Member of the Curriculum Development of AI & Data Science Department",
         "General Secretary of Community and Outreach Board",
         // eslint-disable-next-line react/jsx-key
         <span><strong>Courses Taught: </strong> Algorithms, Structured Programming, Cloud Computing, Database Systems, Computer Networking, Mobile Application Development, Digital Logic Design Lab, Engineering Drawing Lab</span>
+      ]
+    },
+    {
+      position: "Research Assistant",
+      company: "Cognitive Agent and Interaction Lab (CAIL)",
+      years: "Jan, 2021 - Dec, 2022",
+      responsibilities: [
+        "Collaborated to build a RL-Library and Framework",
+        "Prepared Research Proposal for Research Grant"
       ]
     },
     {
