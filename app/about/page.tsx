@@ -242,7 +242,7 @@ const achievements = [
   },
   {
     title: "ICT Fellowship Research Grant",
-    description: "Funded by ICT Division, Govt. of Bangladesht",
+    description: "Funded by ICT Division, Govt. of Bangladesh",
     year: "2024"
   },
   {
