@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Shadman Wadith",
     images: [
       {
-        url: "/selfAbout.jpg",
+        url: "/newDP.jpeg",
         width: 1200, //1200
         height: 630, //630
         alt: "Shadman Wadith Photo",
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
 const ProfilePicture = () => {
   return (
     <Image 
-      src="/selfAbout.jpg" 
+      src="/newDP.jpeg" 
       alt="Profile picture of Shadman Wadith" 
-      className="bg-white-100 rounded-full p-3 shadow-lg" 
+      className="bg-white-100 rounded-full p-3 shadow-lg  "  
       width={320} 
       height={320}/>
   )

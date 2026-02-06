@@ -126,7 +126,7 @@ type SkillIconKeys =
 const ProfilePicture = () => {
   return (
     <Image 
-      src="/selfAbout.jpg" 
+      src="/newDP.jpeg" 
       alt="Profile picture of Shadman Wadith" 
       className="bg-white-100 rounded-full p-3 shadow-lg" 
       width={320} 
@@ -152,6 +152,15 @@ const workExperiences = [
                </Link>{' '}</span>,
         "Working on Test Time Adaptation and Video Language Action Model",
         "Supervise Undergraduate and Graduate Student"
+      ]
+    },
+    {
+      position: "Graduate Instructional Assistant",
+      company: "Bellini College of AI, Cybersecurity and Computing, University of South Florida",
+      years: "Dec, 2025 - Present",
+      responsibilities: [
+        // eslint-disable-next-line react/jsx-key
+        <span><strong>Course: </strong> Comoputer Architecture</span>
       ]
     },
     {
