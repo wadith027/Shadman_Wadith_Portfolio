@@ -137,9 +137,31 @@ const ProfilePicture = () => {
 }
 const workExperiences = [
     {
+      position: "Graduate Research Assistant",
+      company: "Adaptive AI Lab, University of South Florida",
+      years: "Dec, 2025 - Present",
+      responsibilities: [
+        // eslint-disable-next-line react/jsx-key
+        <span><strong>Supervisor: </strong> {' '}
+             <Link
+                href="https://joffery.github.io/joffery/"
+                target="_blank"
+                className="text-purple-600 hover:text-purple-700 transition-all duration-200"
+              >
+                Dr. Fengchun Qiao
+               </Link>{' '}</span>,
+        "Working on Test Time Adaptation and Video Language Action Model",
+        "Supervise Undergraduate and Graduate Student"
+      ]
+    },
+    {
       position: "Lecturer",
       company: "BRAC University",
-      years: "Oct, 2024 - Present",
+      years: "Oct, 2024 - Present (On Study Leave)",
+      responsibilities: [
+        // eslint-disable-next-line react/jsx-key
+        <span><strong>Courses Taught: </strong> Database Systems, Microprocessors, Algorithms, Data Structures, Programming ‑I</span>
+      ]
     },
     {
       position: "Lecturer",
@@ -154,9 +176,18 @@ const workExperiences = [
     },
     {
       position: "Research Assistant",
-      company: "Cognitive Agent and Interaction Lab (CAIL)",
+      company: "Cognitive Agent and Interaction Lab (CAIL), University of Dhaka",
       years: "Jan, 2021 - Dec, 2022",
       responsibilities: [
+        // eslint-disable-next-line react/jsx-key
+        <span><strong>Supervisor: </strong> {' '}
+             <Link
+                href="https://mmkhansajeeb.com/"
+                target="_blank"
+                className="text-purple-600 hover:text-purple-700 transition-all duration-200"
+              >
+                Dr. Md. Mosaddek Khan
+               </Link>{' '}</span>,
         "Collaborated to build a RL-Library and Framework",
         "Prepared Research Proposal for Research Grant"
       ]
@@ -164,7 +195,7 @@ const workExperiences = [
     {
       position: "Full-Stack Developer",
       company: "Inceptus Tech",
-      years: "July, 2024 - Present",
+      years: "July, 2024 - August, 2025",
       responsibilities: [
         "Developed a full-featured SaaS application that enables users to upload and extract information from various types of files (e.g., PDF, CSV, images) using advanced parsing and machine learning techniques.",
         "Led the entire development lifecycle from design and backend infrastructure (FastAPI) to frontend integration (Next.js).",
@@ -186,28 +217,19 @@ const workExperiences = [
   ];
   const education = [
     {
+      degree: "PhD. in Computer Science and Engineering",
+      institution: "Bellini College of AI, Cyber Security and Computing \nUniversity of South Florida",
+      years: "2026 - Present"
+    },
+    {
       degree: "M.Sc. in Computer Science and Engineering",
       institution: "University of Dhaka",
-      years: "2023 - 2024",
-      description: "CGPA: 3.92/4.00(2nd Position)"
+      years: "2023 - 2025"
     },
     {
       degree: "B.Sc. in Computer Science and Engineering",
       institution: "University of Dhaka",
-      years: "2018 - 2022",
-      description: "CGPA: 3.66/4.00(3rd Position)"
-    },
-    {
-      degree: "Higher Secondary Certificate",
-      institution: "Dhaka City College",
-      years: "2017",
-      description: "GPA: 5.00/5.00(General Board Scholarship)"
-    },
-    {
-      degree: "Secondary School Certificate",
-      institution: "Ideal School and College",
-      years: "2015",
-      description: "GPA: 5.00/5.00"
+      years: "2018 - 2022"
     }
   ];
   type HobbyIconKeys = 'faMicrochip' | 'faBook' | 'faChess' | 'faPlane' | 'faGamepad' | 'faCamera' | 'faRunning' | 'faFilm' | 'faGuitar' | 'faDumbbell';
@@ -281,7 +303,31 @@ const About = () => {
           <div className='lg:px-2 sm: px-20'>
             <h1 className="text-4xl font-bold mb-4">About Me!</h1>
             <p className='text-base mb-6'>
-             Hello, I'm  Shadman Wadith. I graduated from the Department of CSE, {' '}
+              Hello, I'm Shadman Wadith. I am currently a PhD student at the 
+              
+              {' '}
+             <Link
+                href="https://www.usf.edu/"
+                target="_blank"
+                className="text-purple-600 hover:text-purple-700 transition-all duration-200"
+              >
+                University of South Florida (USF),
+               </Link>{' '}
+               
+              
+              where my research focuses on the intersection of Reinforcement Learning, Computer Vision, and Natural Language Processing. I am particularly interested in Vision-Language-Action (VLA) models and Test-Time Adaptation (TTA).
+
+              Prior to joining USF, I served as a Lecturer in the Department of Computer Science and Engineering at {' '}
+              
+              <Link
+                href="https://cse.sds.bracu.ac.bd/"
+                target="_blank"
+                className="text-purple-600 hover:text-purple-500 transition-all duration-200"
+              >
+                BRAC University
+               </Link> {' '}
+              
+              and completed my B.Sc. and M.Sc. in CSE at the {' '}
              <Link
                 href="https://du.ac.bd/body/CSE"
                 target="_blank"
@@ -290,16 +336,11 @@ const About = () => {
                 University of Dhaka 
                </Link>.{' '}
                {/* https://cse.sds.bracu.ac.bd/ */}
-               Currently, I am working as a <b>lecturer</b> at the Department of Computer Science and Engineering, {' '}
-               <Link
-                href="https://cse.sds.bracu.ac.bd/"
-                target="_blank"
-                className="text-purple-600 hover:text-purple-500 transition-all duration-200"
-              >
-                BRAC University
-               </Link>
-               . Also, I am in the final semester of my Master, which I am pursuing at the Department of CSE, University of Dhaka. I specialize in <b>Reinforcement Learning</b>, <b>Computer Vision</b> and <b>Natural Language Processing</b>. Alongside my academic role, I am also a full-stack developer with expertise in FastAPI, NextJS, and NodeJS. I'm passionate about problem-solving, exploring new technologies, and gaming. A fast learner by nature, I thrive on continuously expanding my knowledge and taking on new challenges.
-               </p>
+               
+
+            Beyond academia, I am a seasoned full-stack developer with expertise in FastAPI, NextJS, and NodeJS. Whether I am architecting complex systems, solving intricate research problems, or unwinding with a video game, I thrive on continuous learning and tackling new challenges.
+             Hello, I'm  Shadman Wadith. I graduated from the Department of CSE, {' '}
+              </p>
         </div>
       </div>
       </section>
@@ -356,8 +397,8 @@ const About = () => {
               <div className="flex-shrink-0 left-2.5 w-4 h-4 bg-gray-400 border-4 border-gray-700 rounded-full relative z-10"></div>
               <div className="ml-8">
                 <h3 className="text-xl font-semibold">{edu.degree}</h3>
-                <p className="text-lg text-gray-500">{edu.institution} | {edu.years}</p>
-                <p className="text-sm mt-2 text-gray-500">{edu.description}</p>
+                <p className="text-lg text-gray-500 whitespace-pre-line">{edu.institution} | {edu.years}</p>
+                {/* <p className="text-sm mt-2 text-gray-500">{edu.description}</p> */}
               </div>
             </div>
           ))}

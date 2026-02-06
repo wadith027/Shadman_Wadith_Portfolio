@@ -62,19 +62,19 @@ const ProfilePicture = () => {
 }
 const bioBullets = [
   {
-     link: "https://en.wikipedia.org/wiki/Dhaka",
+     link: "https://en.wikipedia.org/wiki/Tampa,_Florida",
      emoji: "🏠",
-     text: "Lives in Dhaka,Bangladesh",
+     text: "Lives in Tampa,Florida",
   },
   {
-     link: 'https://cse.sds.bracu.ac.bd/',
+     link: 'https://usf.edu/',
      emoji: "💼",
-     text: "Lecturer at BRAC University"
+     text: "Graduate Research Assistant at USF"
   },
   {
      link: "https://github.com/wadith027",
-     emoji: "💻",
-     text: "Full-Stack Developer"
+     emoji: "🤖",
+     text: "AI Researcher"
   }
 ];
 
@@ -130,9 +130,9 @@ export default function Home() {
       <div>
         <div className="text-center md:text-left mb-4 font-sans font-bold">
           <h1 className="text-4xl lg:text-5xl ">
-            Hi, I'm <span className="bg-gradient-to-tl from-indigo-500 to-fuchsia-500 text-transparent bg-clip-text font-bold">Wadith</span><WavingHand />
+            Hey, I'm <span className="bg-gradient-to-tl from-indigo-500 to-fuchsia-500 text-transparent bg-clip-text font-bold">Wadith</span><WavingHand />
           </h1>
-          <h2 className="text-2xl lg:text-3xl">I'm a Lecturer.</h2>
+          <h2 className="text-2xl lg:text-3xl">I'm a PhD Student.</h2>
         </div>
         <BulletPoints />
         {/* socials */}
