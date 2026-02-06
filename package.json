@@ -4,10 +4,11 @@
   "private": true,
   "homepage": "shadmanwadith.xyz",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+  "dev": "next dev",
+  "build": "next build",
+  "postbuild": "next-sitemap", 
+  "start": "next start",
+  "lint": "next lint"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
