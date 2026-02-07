@@ -160,7 +160,7 @@ const workExperiences = [
       years: "Dec, 2025 - Present",
       responsibilities: [
         // eslint-disable-next-line react/jsx-key
-        <span><strong>Course: </strong> Comoputer Architecture</span>
+        <span><strong>Course: </strong> Computer Architecture</span>
       ]
     },
     {
@@ -348,7 +348,7 @@ const About = () => {
                
 
             Beyond academia, I am a seasoned full-stack developer with expertise in FastAPI, NextJS, and NodeJS. Whether I am architecting complex systems, solving intricate research problems, or unwinding with a video game, I thrive on continuous learning and tackling new challenges.
-             Hello, I'm  Shadman Wadith. I graduated from the Department of CSE, {' '}
+             
               </p>
         </div>
       </div>
